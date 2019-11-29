@@ -1,0 +1,32 @@
+.btns_check{
+	display: flex;
+    justify-content: center;
+}
+.video_container{
+	 box-shadow: 0 12px 24px 0 rgba(28,31,33,.1);
+}
+.creater_from{
+	background: blue;
+	color: #fff;
+	border-radius: 4px;
+	padding:0 10px;
+}
+.report_model_body{
+	display:flex;
+	flex-direction: column;
+}
+.report_content, .report_reason_add, .report_reason{
+	display:flex;
+	justify-content:flex-start;
+	margin: 10px;
+}
+.report_title_left{
+	font-size:20px;
+	padding:10px 0px;
+	min-width: 20%;
+}
+.text_reason_add{
+min-width: 100%;
+    width: 660px;
+    height: 150px;
+}

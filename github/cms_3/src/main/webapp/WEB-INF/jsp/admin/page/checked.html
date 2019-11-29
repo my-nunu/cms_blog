@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>看点资讯精选</title>
+  <link rel="stylesheet" href="./static/bootstrap-3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./static/css/layout.css">
+  <script src="./static/js/jquery-3.4.1.min.js"></script>
+  <script src="./static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="./static/js/main.js"></script>
+ <link rel="stylesheet" href="./static/css/reset.css">
+<link rel="stylesheet" href="./static/css/style.css">
+<link rel="stylesheet" type="text/css" href="./static//css/checkout.css">
+</head>
+<body>
+  <!-- 外部容器 -->
+  <div class="container-layout">
+    <div class="top_bar"></div>
+    <div class="wrap">
+      <!-- 左侧导航 -->
+      <div class="nav_left">
+        <!-- 标题 -->
+        <div class="title">
+          <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>看点资讯精选后台
+        </div>
+        <!-- 列表 -->
+        <ul class="cd-accordion-menu animated">
+          <li class="has-children">
+            <input type="checkbox" name ="group-1" id="group-1" checked>
+            <label for="group-1">首页</label>
+
+            <ul>
+              <li><a href="./index.html">首页展示</a></li>
+            </ul>
+          </li>
+
+         <!--  <li class="has-children">
+            <input type="checkbox" name ="group-4" id="group-4">
+            <label for="group-4">资讯栏目</label>
+
+            <ul>
+              <li class="has-children">
+                <input type="checkbox" name ="sub-group-3" id="sub-group-3">
+                <label for="sub-group-3">栏目一级</label>
+
+                <ul>
+                  <li><a href="./pages/show.html">栏目二级</a></li>
+                  <li><a href="#0">栏目二级</a></li>
+                </ul>
+              </li>
+              <li><a href="#0">新栏目一级</a></li>
+              <li><a href="#0">旧栏目二级</a></li>
+            </ul>
+          </li>
+ -->
+          <li class="has-children">
+            <input type="checkbox" name ="group-3" id="group-3" checked>
+            <label for="group-3">栏目管理</label>
+
+            <ul>
+               <li><a href="./column.html">栏目信息列表</a></li>
+              <li><a href="./category.html">待审核列表</a></li>
+              <li><a href="./message.html">咨询信息列表</a></li>
+              <li><a href="./report.html">举报待处理列表</a></li>
+              <li><a href="./checked.html">已处理列表</a></li>
+              <li><a href="./user.html">用户管理</a></li>
+            </ul>
+          </li>
+
+
+        </ul>
+
+      </div>
+      <!-- 右侧内容 -->
+      <div class="content_right">
+        <div class="top_bar">
+          <!-- 用户信息 -->
+          <div class="user_info">
+            <img src="./static/images/tx.jpg" alt="">
+            <span>胡六</span>
+          </div>
+           <div class="login">
+              <a href="./index.html">退出</a>
+          </div>
+        </div>
+        <div class="content">
+          <div class="title"> 已处理资讯列表 </div>
+          <div class="btns">
+              <button type="button" class="btn btn-primary  btn-sm"  data-toggle="modal" data-target=".bs-example-modal-back">批量恢复</button>
+             <!--  <button type="button" class="btn btn-danger  btn-sm">批量删除</button> -->
+          </div>
+          <table class="tbl">
+            <thead>
+              <tr>
+                <th width="50px">编号</th>
+                <th width="300px">标题</th>
+                <th width="100px">栏目</th>
+                <th width="160px">发布时间</th>
+                <th width="80px">阅读量</th>
+                <th width="80px">点赞量</th>
+                <th width="80px">收藏量</th>
+                <th width="80px">举报量</th>
+                <th width="160px">状态</th>
+                 <th width="160px">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <input type="checkbox">
+                </td>
+                <td>食品资讯2</td>
+                <td>二级栏目</td>
+                <td>2019-01-02</td>
+                 <td>4</td>
+                <td>128</td>
+                <td>128</td>
+                 <td>128</td>
+                 <td width="160px">举报审核正常</td>
+                <td>
+                  <button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target=".bs-example-modal-back">恢复</button>
+                </td>
+              </tr>
+             <tr>
+                <td>
+                  <input type="checkbox">
+                </td>
+                <td>食品资讯2</td>
+                <td>二级栏目</td>
+                <td>2019-01-02</td>
+                 <td>4</td>
+                <td>128</td>
+                <td>128</td>
+                 <td>128</td>
+                 <td width="160px">举报审核正常</td>
+                <td>
+                  <button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target=".bs-example-modal-back">恢复</button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox">
+                </td>
+                <td>食品资讯2</td>
+                <td>二级栏目</td>
+                <td>2019-01-02</td>
+                 <td>4</td>
+                <td>128</td>
+                <td>128</td>
+                 <td>128</td>
+                 <td width="160px">举报审核正常</td>
+                <td>
+                  <button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target=".bs-example-modal-back">恢复</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 模态框 -->
+  <div class="modal fade bs-example-modal-check" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-md" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="gridSystemModalLabel">栏目审核</h4>
+              </div>
+              <div class="modal-body">
+                <div class="btns_check">
+                   <!--  <label>审核通过&nbsp;<input type="radio" name=""></label>&nbsp;&nbsp;
+                     <label>审核不通过&nbsp;<input type="radio" name=""></label>&nbsp;&nbsp; -->
+                      <button type="button" class="btn btn-danger">审核不通过</button>&nbsp;&nbsp;
+                      <button type="button" class="btn btn-success">审核通过</button>&nbsp;&nbsp;
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary btn-sm">保存</button>
+              </div>
+            </div><!-- /.modal-content -->
+      </div>
+    </div>
+   <!--  恢复-->
+<div class="modal fade bs-example-modal-back" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+    <div class="modal-body">确定恢复吗？</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary">确定</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

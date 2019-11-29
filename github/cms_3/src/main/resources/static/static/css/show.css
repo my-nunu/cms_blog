@@ -1,0 +1,63 @@
+.title_big{
+	font-size: 24px;
+	font-weight: bold;
+	padding:20px;
+}
+.slide_img{
+	width: 500px;
+}
+.container_img_slide{
+	display: flex;
+	margin-bottom:40px;
+	 // box-shadow: 0 12px 24px 0 rgba(28,31,33,.1);
+
+}
+.right_img_slide{
+	width:48%;
+	margin-left: 3%;
+	 box-shadow: 0 12px 24px 0 rgba(28,31,33,.1);
+	padding:20px;
+}
+.new_header{
+ height: 50px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#35383d;
+cursor: pointer;
+flex-flow: row wrap;
+
+}
+.new_content{
+	min-height: 240px;
+}
+.video_container{
+	 box-shadow: 0 12px 24px 0 rgba(28,31,33,.1);
+	 border: 1px solid #ccc;
+}
+.creater_from{
+	background: blue;
+	color: #fff;
+	border-radius: 4px;
+	padding:0 10px;
+}
+.report_model_body{
+	display:flex;
+	flex-direction: column;
+}
+.report_content, .report_reason_add, .report_reason{
+	display:flex;
+	justify-content:flex-start;
+	margin: 10px;
+}
+.report_title_left{
+	font-size:20px;
+	padding:10px 0px;
+	min-width: 20%;
+}
+.text_reason_add{
+min-width: 100%;
+    width: 660px;
+    height: 150px;
+}
